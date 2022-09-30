@@ -1,0 +1,19 @@
+Q2) Explain about Hashcode and Equals Method.
+
+Ans-
+Both Hashcode method and Equals method belongs to Object class.
+
+Hashcode Method-
+Syntax -public int hashcode()
+hashcode is integer value given to every object of java.To get this hashcode value for an object we can use hascode method.
+
+hashcode() returns a integer hascode value of the given object.
+
+Equals method- 
+Syntaax -public boolean equals(Object obj)
+
+Equals method used to compare two objects.
+It compares the value of the attributes of the both objects.
+By default the two objects are same only when they are in same memory location.
+
+It return true if both are equal, otherwise return false.
