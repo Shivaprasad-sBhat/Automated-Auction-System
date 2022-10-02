@@ -1,20 +1,20 @@
 package com.auction.usecase;
 
-
 import java.util.List;
 
 import com.aucion.bean.Products;
 import com.auction.dao.BuyerDaoImpl;
 import com.auction.exceptions.ProductException;
 
-public class DispItemCatagory {
+public class DispItemPrice {
 
-	public static void dispItemCatagory()  {
+	
+public static void dispItemPrice()  {
 		
 		
-		List<Products> products =null;
+		List<Products> products=null;
 		try {
-			products = new BuyerDaoImpl().showItemList();
+			products = new BuyerDaoImpl().showItemPrice();
 		} catch (ProductException e) {
 			
 			e.printStackTrace();
@@ -35,9 +35,5 @@ public class DispItemCatagory {
 		System.out.println("|----------------------------------------------|");
 		});
 		
-		System.out.println("");
-		
 	}
-	
-	
 }

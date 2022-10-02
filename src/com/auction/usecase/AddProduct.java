@@ -1,6 +1,8 @@
 package com.auction.usecase;
 
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 import com.aucion.bean.Products;
@@ -32,7 +34,11 @@ public class AddProduct {
 	//	DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss");
 		//java.sql.Timestamp e_date=new java.sql.Timestamp(price);
 		
-			
+//		System.out.println("Enter the buydate in yyyy-MM-dd");
+//		String da=sc.next();
+//		DateTimeFormatter dtf=DateTimeFormatter.ofPattern("yyyy-MM-dd");
+//		LocalDateTime sdate=LocalDateTime.parse(da);
+//		Date spdate = Date.valueof(sdate);
 		    
 		    Products product=new Products();
 		    

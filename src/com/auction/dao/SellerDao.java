@@ -1,5 +1,7 @@
 package com.auction.dao;
 
+import java.util.List;
+
 import com.aucion.bean.Products;
 import com.aucion.bean.Seller;
 import com.auction.exceptions.SellerException;
@@ -18,6 +20,6 @@ public interface SellerDao {
 		
 		public String removeProduct(Products product);
 		
-	//	public String showSoldProd(Products product);
+	//	public List<Products> showSoldProd(Seller seller);
 
 }

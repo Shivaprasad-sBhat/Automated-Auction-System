@@ -18,7 +18,7 @@ public class LoginBuyer {
 public static int  buyerid;
 	
 	
-	public static void loginBuyer() throws ProductException {
+	public  void loginBuyer() throws ProductException {
 		
 		Scanner sc= new Scanner(System.in);
 		
@@ -47,13 +47,6 @@ public static int  buyerid;
 		}
 	
 	
-	public static void main(String[] args) throws ProductException {
-		loginBuyer();
-		new DispItemCatagory().dispItemCatagory();
-		new DispItemCatagory().dispItemPrice();
-		new BiddOnProduct().bidOnProduct();
-		
-	}
 		
 
 }
